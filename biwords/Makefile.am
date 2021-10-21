@@ -2,7 +2,7 @@
 
 bin_PROGRAMS = symmetrize-alignments gen-text-to-compress \
                stats-alignments restore-text filter-alignments \
-               restore-text-multiple-offsets restore-text-old \
+               restore-text-multiple-offsets \
                count-unaligned-words
 
 bin_SCRIPTS = giza++A3-to-txt switch-alignments get-one-side
@@ -23,8 +23,6 @@ stats_alignments_LDADD = $(Z_LIBS)
 gen_text_to_compress_SOURCES = gen-text-to-compress.cc \
        alignment.h alignment.cc utils.h utils.cc zfstream.h zfstream.cc 
 gen_text_to_compress_LDADD = $(Z_LIBS)
-
-restore_text_old_SOURCES = restore-text-old.cc utils.h utils.cc
 
 restore_text_multiple_offsets_SOURCES = restore-text-multiple-offsets.cc utils.h utils.cc alignment.h alignment.cc
 
