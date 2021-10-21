@@ -1,0 +1,4 @@
+SUBDIRS = biwords
+DIST_SUBDIRS = biwords
+
+EXTRA_DIST=autogen.sh ACKNOWLEDGEMENTS

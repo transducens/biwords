@@ -1,0 +1,51 @@
+bitext-compression
+
+This software is GPL. It is provided as is, WITHOUT any guarantee, in
+the hope that it will be useful.
+
+(c) 2009 Universidad de Alicante / Universitat d'Alacant
+---------------------------------------------------------------------
+
+
+
+Contact information:
+---------------------------------------------------------------------
+
+Felipe Sánchez Martínez
+
+Departament de Llenguatges i Sistemes Informàtics
+Universitat d'Alacant
+E-03071 Alacant (Spain)
+
+fsanchez@dlsi.ua.es
+http://www.dlsi.ua.es/~fsanchez
+
+Installation
+---------------------------------------------------------------------
+To install bitext-compression you need to have installed the
+following packages:
+
+....
+
+Once you have all the required software installed, install
+bitext-compression in the common way:
+
+$ ./configure && make
+
+and as a root
+
+# make install
+
+For more information on each program execute it without parameters.
+
+ Good luck!
+
+Acknowledgements
+---------------------------------------------------------------------
+Funded by the Spanish Ministry of Education and Science 
+through project TIN2006-15071-C03-01.
+
+References
+---------------------------------------------------------------------
+Please visit http://www.dlsi.ua.es/~fsanchez
+
